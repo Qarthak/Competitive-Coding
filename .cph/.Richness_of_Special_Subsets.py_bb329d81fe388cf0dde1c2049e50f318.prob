@@ -1,0 +1,1 @@
+{"name":"Local: Richness_of_Special_Subsets","url":"d:\\Code\\Richness_of_Special_Subsets.py","tests":[{"id":1619774059856,"input":"15 1 4 3 2 4 2 5 -9999999 -9999999 -9999999 -9999999 -9999999 -9999999 4 6","output":"20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\Richness_of_Special_Subsets.py","group":"local","local":true}
