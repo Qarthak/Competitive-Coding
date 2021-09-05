@@ -80,7 +80,7 @@ long long npowerofm(ll base,ll powerr, ll modd=1000000007)
 		return 1;
 	ll tempp=(npowerofm(base,powerr/2,modd))%modd;
 	return ( ( (tempp*tempp)%modd )*( (powerr%2)?base:1) )%modd;
-}
+} 
 
 int numOfFactors(ll foo)
 {
