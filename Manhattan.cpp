@@ -27,7 +27,8 @@ using namespace std;
 
 typedef long long ll;
 typedef long double ld;
- 
+typedef float fffff; 
+
 typedef pair<int, int> pi;
 typedef pair<ll,ll> pl;
 typedef pair<ld,ld> pd;
@@ -127,7 +128,9 @@ int dfs(vector<int> *AdjacencyList, int Node, int parent)
 
 ll prep[1]={};
 //Putting it here vs putting it inside main
+// Stack vs heap storage
 //Find number of factor works weirdly with square roots
+//mysteries of life
 //memset
 //Try to do functional programming
 //Use good names
@@ -155,12 +158,6 @@ int main(){
 		}
 	}
 	
-	// for (long long i=0; i<n; i++){
-	// 	for(long long j=0; j<(1<<(d-1)); j++){
-	// 		cout << a[i][j] << " " ;
-	// 	}
-	// 	cout  << endl ;
-	// }
 	
 	ll maxxD=0;
 	for (long long i=0; i<d; i++){
