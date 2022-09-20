@@ -50,7 +50,7 @@ typedef vector<pl> vpl;
 #define impos cout << "IMPOSSIBLE" << endl ;
 #define yesno( zst ) if( zst ) cout << "YES" << endl ; else cout << "NO" << endl ;
 #define posimpos( zst ) if( zst ) cout << "POSSIBLE" << endl ; else cout << "IMPOSSIBLE" << endl ;
-#define xspace(s) << (s) <<+91 90394 86564
+#define xspace(s) << (s) <<
 #define rep(frst, scnd)	for (long long frst=0; frst<scnd; frst++)
 #define repe(frst, scnd, thrd)	for (long long frst=scnd; frst<scnd; frst++)
 // #define errr (1E-18);
